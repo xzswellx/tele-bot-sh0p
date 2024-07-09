@@ -188,7 +188,7 @@ function sendPaymentOptions(chatId) {
 
 // Функция для открытия канала с отзывами
 function openReviewsChannel(chatId) {
-    bot.sendMessage(chatId, 'Отзывы нашего магазина вы можете почитать в нашем Telegram канале:\nhttps://t.me/tgspilnota');
+    bot.sendMessage(chatId, 'Отзывы нашего магазина вы можете почитать в нашем Telegram канале:\nhttps://t.me/swag_shp');
 }
 
 // Обработчик callback данных для кнопок корзины и оплаты
