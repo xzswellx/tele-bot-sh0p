@@ -14,7 +14,7 @@ app.listen(port, () => {
 });
 
 // Ваш токен бота
-const token = '7015073848:AAG_XD2U0niRA1ssE6dylOtVWJl_CY3CgPg';
+const token = process.env.TOKEN;
 
 // Создание экземпляра бота
 const bot = new TelegramBot(token, { polling: true });
